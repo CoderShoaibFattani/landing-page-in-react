@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+}
+
+
+.wrapper1 {
+    display: flex;
+    margin-left: 150px;
+    width: 20%;
+}
+
+
+
+.wrapper2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    width: 80%;
+    gap: 40px;
+    align-items: center;
+}
+
+.inp {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgb(247, 244, 244);
+    align-items: center;
+    height: 30px;
+}
+
+input {
+    width: 100px;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    height: 30px;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

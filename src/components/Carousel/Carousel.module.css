@@ -1,0 +1,85 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carouselInner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    /* left: 10%; */
+    transform: translateY(-50%);
+    color: white;
+    text-align: left;
+}
+
+.subtitle {
+    background-color: #D2093C;
+    font-size: 13px;
+    margin-left: 150px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+.title {
+    font-size: 48px;
+    margin: 20px 0;
+    margin-left: 150px;
+    width: 500px;
+}
+
+.admissionsBtn,
+.watchVideoBtn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.admissionsBtn {
+    background-color: #000;
+    color: white;
+}
+
+.admissionsBtn:hower {
+    background-color: #D2093C;
+}
+
+.watchVideoBtn {
+    background-color: white;
+    color: black;
+}
+
+.playIcon {
+    margin-right: 5px;
+}
+
+.carouselControl {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 48px;
+    color: white;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}

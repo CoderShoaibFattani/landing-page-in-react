@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #00306E;
+}
+
+.wrapper1 {
+    display: flex;
+    margin-left: 150px;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+}
+
+.anc {
+    text-decoration: none;
+    color: white;
+}
+
+.subdiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    width: 50%;
+    gap: 5px;
+    align-items: center;
+}

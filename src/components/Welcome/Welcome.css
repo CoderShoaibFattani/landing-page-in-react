@@ -1,0 +1,47 @@
+.welcome-container {
+    display: flex;
+    gap: 10px;
+    margin: 0 150px;
+}
+
+.content-section {
+    width: 50%;
+}
+
+h1 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.highlight {
+    color: #e91e63;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    color: black;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.read-more {
+    color: black;
+    text-decoration: none;
+    width: 150px;
+    padding: 20px;
+}
+
+.support-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
